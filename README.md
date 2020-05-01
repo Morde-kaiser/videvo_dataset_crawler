@@ -1,8 +1,11 @@
 # videvo_dataset_crawler
 
 Using requests, re, BeautifulSoup to crawl videos from videvo.net  
-  You'd better use ipynb version by jupyter notebook cuz py file might crash due to requests connection lost  
-	This program will automatically create a file called "video", and all the videos would be downloaded there:)
+  
+  In this part, you have to run "video_crawler.py" or "video_crawler_by_jupyter.ipynb"  
+You'd better use ipynb version by jupyter notebook cuz py file might crash due to requests connection lost.  
+  But it could crash as well in a relatively low probability, so when it happens, plz run that program again!  
+  This program will automatically create a file called "video", and all the videos would be downloaded there:)
 	![effect](https://user-images.githubusercontent.com/60550888/80796735-8f317e80-8bd2-11ea-9184-6b5e317635b0.png)
 ## Video preprocessing  
 In order to do that, plz download the whole project, and rename the file "DataSet" to "video", for this name might be ambiguous when training your dataset.  
